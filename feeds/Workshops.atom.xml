@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>NOVA Python</title><link href="http://novapython.org/" rel="alternate"></link><link href="http://novapython.org/feeds/Workshops.atom.xml" rel="self"></link><id>http://novapython.org/</id><updated>2012-08-08T00:00:00-04:00</updated><entry><title>Workshop Meeting #1</title><link href="http://novapython.org/workshop-meeting-1.html" rel="alternate"></link><updated>2012-08-08T00:00:00-04:00</updated><author><name>Ryan Day</name></author><id>tag:novapython.org,2012-08-08:workshop-meeting-1.html</id><summary type="html">&lt;p&gt;Just finished a workshop related lunch with &lt;a class="reference external" href="http://www.mattmakai.com/"&gt;Matt Makai&lt;/a&gt;. Things are looking
+up and our plan is solid. We will have some pretty sleek presentations
+for our information as well. We discussed several things, most notably:&lt;/p&gt;
+&lt;ol class="arabic simple"&gt;
+&lt;li&gt;Static sites&lt;/li&gt;
+&lt;li&gt;Github pages&lt;/li&gt;
+&lt;li&gt;Common pitfalls of programming tutorials&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Dgentle Django's huge traction is getting us tens of views every single day,
+so we need to make sure that the site is responsive. Item #1 leads to #2,
+which is obviously the reason I am writing all this up. I just had to try out
+Github pages. I am very pleased. I would like some ideas on themes for pelican,
+but that will come soon enough.&lt;/p&gt;
+&lt;p&gt;So on to the real meat, #3. We plan on starting out simple. The what and
+why of web frameworks in general. This is necessary because Django is a
+pretty large undertaking for a simple website. So you need to know why you
+would choose Djhango in the first place. Knowing why will make all the
+abstractions (MVC) make sense, instead of seeming like a hurdle.&lt;/p&gt;
+&lt;p&gt;So, Matt and I were discussing the two types of programming instruction:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;How install X and create a &amp;quot;Hello World&amp;quot; app&lt;/li&gt;
+&lt;li&gt;Theory behind distributed credit card chargebacks when your backup ESB is on the fritz.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;There is a little bit of knowledge inbetween those two situations that is
+rarely discussed. But the vast majority of people fall in between those two
+scenarios. How do you reach them?&lt;/p&gt;
+&lt;p&gt;So. I don't know. But, I figure it's a good enough question to justify
+throwing together a Github Pages account with a little bit of content.&lt;/p&gt;
+</summary><category term="python"></category><category term="django"></category><category term="meta"></category></entry></feed>
