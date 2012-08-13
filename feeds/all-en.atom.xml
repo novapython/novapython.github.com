@@ -1,5 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>NOVA Python</title><link href="http://blog.novapython.org/" rel="alternate"></link><link href="http://blog.novapython.org/feeds/all-en.atom.xml" rel="self"></link><id>http://blog.novapython.org/</id><updated>2012-08-11T00:00:00-04:00</updated><entry><title>Djentle Django Day 1</title><link href="http://blog.novapython.org/djentle-django-day-1.html" rel="alternate"></link><updated>2012-08-11T00:00:00-04:00</updated><author><name>Ryan Day</name></author><id>tag:blog.novapython.org,2012-08-11:djentle-django-day-1.html</id><summary type="html">&lt;p&gt;Day #1 of Djentle Django is complete. We did seriously well. Our class has a very diverse range of skills. There are some who are installing their favorite IDE and running through the Django tutorial. There are a couple who have not used a command line before.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>NOVA Python</title><link href="http://blog.novapython.org/" rel="alternate"></link><link href="http://blog.novapython.org/feeds/all-en.atom.xml" rel="self"></link><id>http://blog.novapython.org/</id><updated>2012-08-12T00:00:00-04:00</updated><entry><title>Djentle Django Day 2</title><link href="http://blog.novapython.org/djentle-django-day-2.html" rel="alternate"></link><updated>2012-08-12T00:00:00-04:00</updated><author><name>Ryan Day</name></author><id>tag:blog.novapython.org,2012-08-12:djentle-django-day-2.html</id><summary type="html">&lt;p&gt;The first workshop has been completed successfully. Thanks to a great team,
+participants were able to build a working Django web site from nothing.
+Some participants were brand new to Linux as well. So there was alot of ground
+covered. Fortunately, Django is straight forward and pretty easy to work with.&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Huge thanks to the &lt;a class="reference external" href="http://nvcc.edu"&gt;Northen Virginia Community College&lt;/a&gt; for providing a lab outfitted with computers.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://www.willowtreeapps.com/"&gt;Willow Tree Apps&lt;/a&gt; provided lunch on both days of the workshop, allowing us to interact with eachother and learn that much more.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;And of course, those who taught us all something new&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Alan Elkner (&lt;a class="reference external" href="http://elkner.net/"&gt;elkner.net&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Annalee Flower Horne (how does one reach you?)&lt;/li&gt;
+&lt;li&gt;Eddie Welker (&lt;a class="reference external" href="http://twitter.com/edwelker/"&gt;&amp;#64;edwelker&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Jackie Kazil (&lt;a class="reference external" href="https://twitter.com/JackieKazil"&gt;&amp;#64;JackieKazi&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Jeff Elkner (&lt;a class="reference external" href="http://elkner.net/"&gt;elkner.net&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Jen Rullmann (&lt;a class="reference external" href="https://twitter.com/RedMonocle"&gt;&amp;#64;RedMonocle&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Kevin Cole (&lt;a class="reference external" href="https://twitter.com/ubuntourist"&gt;&amp;#64;ubuntourist&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Matt Makai (&lt;a class="reference external" href="http://twitter.com/makaimc/"&gt;&amp;#64;makaimc&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Ryan Day (&lt;a class="reference external" href="https://twitter.com/RyanDay2"&gt;&amp;#64;RyanDay2&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I have a lot of data and thoughts and ideas, but I have to compile it all first.
+I hope to put up something graphing the spreadsheet data and ideas later this
+week. So check back!&lt;/p&gt;
+&lt;p&gt;Until then, quote of the course, &amp;quot;Most of computer programming is just doing math the wrong way&amp;quot;.&lt;/p&gt;
+</summary><category term="python"></category><category term="django"></category><category term="meta"></category></entry><entry><title>Djentle Django Day 1</title><link href="http://blog.novapython.org/djentle-django-day-1.html" rel="alternate"></link><updated>2012-08-11T00:00:00-04:00</updated><author><name>Ryan Day</name></author><id>tag:blog.novapython.org,2012-08-11:djentle-django-day-1.html</id><summary type="html">&lt;p&gt;Day #1 of Djentle Django is complete. We did seriously well. Our class has a very diverse range of skills. There are some who are installing their favorite IDE and running through the Django tutorial. There are a couple who have not used a command line before.&lt;/p&gt;
 &lt;p&gt;Even those with no linux experience were looking at DEBUG dumps, and finding the problem in their code. Fixing the problem, then restarting the Django server. Thats pretty good. The amount of knowledge required to bring up a Django web site is pretty astronomical.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Yes!&lt;/strong&gt; It really is when you think about it.&lt;/p&gt;
 &lt;p&gt;With the push to teach everyone to code, you have to look at exactly what it takes to code. You have to have a text editor. Ubuntu doesn't have gedit on the standard toolbar. So just open a terminal and run gedit. But how do you know gedit exists? What are you even editing? Oh you should run django-admin.py? Whats a terminal?&lt;/p&gt;
