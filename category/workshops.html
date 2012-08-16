@@ -24,7 +24,21 @@
 <body id="index" class="home">
 
         <header id="banner" class="body">
-                <h1><a href="../.">NOVA Python </a></h1>
+            <div style="height:60px">
+                <h1 style="float:left"><a href="../.">NOVA Python </a></h1>
+        
+                <div class="social" style="float: right">
+                        <ul>
+                            <li><a href="http://blog.novapython.org/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
+                            
+
+                        
+                            <li><a href="http://twitter.com/NOVAPython">@NOVAPython</a></li>
+                        
+                        </ul>
+                </div><!-- /.social -->
+            </div>
+        
                 <nav><ul>
                 
                 
@@ -45,8 +59,183 @@
         
             <aside id="featured" class="body">
                 <article>
-                    <h1 class="entry-title"><a href=".././djentle-django-day-2.html">Djentle Django Day 2</a></h1> 
+                    <h1 class="entry-title"><a href=".././djentle-django-followup.html">Djentle Django Followup</a></h1> 
                     <footer class="post-info">
+        <abbr class="published" title="2012-08-15T00:00:00">
+                Wed 15 August 2012
+        </abbr>
+
+        
+        <address class="vcard author">
+                By <a class="url fn" href=".././author/ryan-day.html">Ryan Day</a>
+        </address>
+        
+<p>In <a href=".././category/workshops.html">Workshops</a>. </p>
+<p>tags: <a href=".././tag/python.html">python</a><a href=".././tag/django.html">django</a><a href=".././tag/meta.html">meta</a></p>
+
+
+</footer><!-- /.post-info --><p>Novapython's first Djentle Django workshop has been a great success. Thanks
+goes out to <a class="reference external" href="http://nvcc.edu">NVCC</a> for providing the space and equipment. Also thanks to
+<a class="reference external" href="http://willowtreeapps.com">Willow Tree Apps</a> for providing two days of lunch for everyone. Also, we
+should mention all the teachers and helpers that made this possible:</p>
+<ul class="simple">
+<li>Alan Elkner (aelkner .at. elkner.net)</li>
+<li>Annalee Flower Horne</li>
+<li>Eddie Welker (<a class="reference external" href="http://twitter.com/edwelker/">&#64;edwelker</a>)</li>
+<li>Jackie Kazil (<a class="reference external" href="https://twitter.com/JackieKazil">&#64;JackieKazi</a>)</li>
+<li>Jeff Elkner (<a class="reference external" href="http://elkner.net/">elkner.net</a>)</li>
+<li>Jen Rullmann (<a class="reference external" href="https://twitter.com/RedMonocle">&#64;RedMonocle</a>)</li>
+<li>Kevin Cole (<a class="reference external" href="https://twitter.com/ubuntourist">&#64;ubuntourist</a>)</li>
+<li>Mackenzie Morgan</li>
+<li>Matt Makai (<a class="reference external" href="http://twitter.com/makaimc/">&#64;makaimc</a>)</li>
+<li>Ryan Day (<a class="reference external" href="https://twitter.com/RyanDay2">&#64;RyanDay2</a>)</li>
+</ul>
+<p><img alt="class" src="../static/images/class.jpg" /> <img alt="helpers" src="../static/images/action.jpg" /></p>
+<p>Now that we've competed this class, it's a good time to time to look over what
+worked, what didn't, what to add/remove, and just think about stuff in general.
+What better way than to go through the questions I sent out to all the attendees</p>
+<div class="section" id="preworkshop">
+<h2>Preworkshop</h2>
+<p>I asked the following questions of <strong>23</strong> attendees, and received <strong>12</strong> responses:</p>
+<ol class="arabic simple">
+<li>How did you hear about this workshop? <em>(Pyladies / Novapython / NVCC)</em><ul>
+<li><strong>3</strong> Pyladies</li>
+<li><strong>9</strong> Novapython</li>
+<li><strong>1</strong> NVCC</li>
+<li><strong>Note</strong> One attendee checked both Pyladies and Novapython</li>
+</ul>
+</li>
+<li>What is your current comfort level with HTML/CSS? <em>(Very Comfortable / Comfortable / No Opinion / Not So Comfortable)</em><ul>
+<li><strong>4</strong> Very Comfortable</li>
+<li><strong>2</strong> Comfortable</li>
+<li><strong>2</strong> No Opinion</li>
+<li><strong>4</strong> Not So Comfortable</li>
+</ul>
+</li>
+<li>What is your current comfort level with Python? <em>(Very Comfortable / Comfortable / No Opinion / Not So Comfortable)</em><ul>
+<li><strong>2</strong> Very Comfortable</li>
+<li><strong>6</strong> Comfortable</li>
+<li><strong>4</strong> No Opinion</li>
+<li><strong>0</strong> Not So Comfortable</li>
+</ul>
+</li>
+<li>What is your current comfort level with Django? <em>(Very Comfortable / Comfortable / No Opinion / Not So Comfortable)</em><ul>
+<li><strong>0</strong> Very Comfortable</li>
+<li><strong>0</strong> Comfortable</li>
+<li><strong>2</strong> No Opinion</li>
+<li><strong>10</strong> Not So Comfortable</li>
+</ul>
+</li>
+<li>Have you used any other web frameworks / programming languages? <em>(Open Ended)</em></li>
+<li>Are there any specific topics you would like covered? <em>(Open Ended)</em></li>
+<li>Was there anything special about this workshop that made you want to sign up? <em>(Open Ended)</em></li>
+<li>What are your biggest worries about taking this workshop? <em>(Open Ended)</em></li>
+</ol>
+</div>
+<div class="section" id="preworkshop-results">
+<h2>Preworkshop Results</h2>
+<p>This is what we were hoping for! Now, if everyone had completed the survey, then
+the results would have been a little different, but not by much. We had some
+true beginners, but nobody had the fear. The opended questions are a little
+harder to quantify, but the <em>majority of attendees were worried about being
+left behind</em>. After going through the postworkshop results, I feel we did a
+great job in alleviating this worry.</p>
+<p>Also, an informal survey of the class showed a lot of programming experience in
+other languages and frameworks. Java was prevelant. I had a lot of side
+questions about Flask and Pyramid as well. A good bit of the class had database
+experience (odd, if you ask me. I would have thought more HTML than databases).</p>
+</div>
+<div class="section" id="postworkshop">
+<h2>Postworkshop</h2>
+<p>We received only <strong>4</strong> responses for the postworkshop, which tells me we need a
+better way of gathering the results. But anyway, the questions:</p>
+<ol class="arabic simple">
+<li>What is your current comfort level with HTML/CSS? <em>(Very Comfortable / Comfortable / No Opinion / Not So Comfortable)</em><ul>
+<li><strong>2</strong> Very Comfortable</li>
+<li><strong>2</strong> Comfortable</li>
+<li><strong>0</strong> No Opinion</li>
+<li><strong>0</strong> Not So Comfortable</li>
+</ul>
+</li>
+<li>What is your current comfort level with Python? <em>(Very Comfortable / Comfortable / No Opinion / Not So Comfortable)</em><ul>
+<li><strong>1</strong> Very Comfortable</li>
+<li><strong>2</strong> Comfortable</li>
+<li><strong>0</strong> No Opinion</li>
+<li><strong>1</strong> Not So Comfortable</li>
+</ul>
+</li>
+<li>What is your current comfort level with Django? <em>(Very Comfortable / Comfortable / No Opinion / Not So Comfortable)</em><ul>
+<li><strong>0</strong> Very Comfortable</li>
+<li><strong>3</strong> Comfortable</li>
+<li><strong>1</strong> No Opinion</li>
+<li><strong>0</strong> Not So Comfortable</li>
+</ul>
+</li>
+<li>What topics would you have liked to learn more about? <em>(Open Ended)</em></li>
+<li>What was the least helpful part of this course? <em>(Open Ended)</em></li>
+<li>Does anything particularly interesting stand out in your memory? <em>(Open Ended)</em></li>
+<li>Would you be interested in a followup course? <em>(Boolean)</em><ul>
+<li><strong>4</strong> Yes</li>
+</ul>
+</li>
+<li>Had you ever used Linux before this course? <em>(Boolean)</em><ul>
+<li><strong>4</strong> Yes</li>
+</ul>
+</li>
+<li>Did you feel rushed and/or overwhelmed during this course? <em>(Boolean)</em><ul>
+<li><strong>4</strong> No</li>
+</ul>
+</li>
+</ol>
+</div>
+<div class="section" id="postworkshop-results">
+<h2>Postworkshop Results</h2>
+<p>Success! The &quot;No So Comfortable&quot; Django responses went to 0, and the
+comfortable responses went up. Nobody reported feeling rushed or overwhelmed in
+the process. I also see that everyone who responded had used linux in the past,
+and I know this wasn't the case when we were helping out attendees. So this
+whole thing probably suffers a little bias.</p>
+<p>But! Everyone seemed to have a good time, learn a little something, and not
+get intimidated or feel uncomfortable. Those are the results we really cared
+about.</p>
+</div>
+<div class="section" id="next-steps">
+<h2>Next Steps</h2>
+<p>For the next course, we need to</p>
+<ul class="simple">
+<li>Do a better job of surveying the class. More results will help us improve.</li>
+<li>Find a way to break up instruction/coding into more distinct segments to reduce downtime and crosstalk which may get confusing</li>
+<li>Use the more complete survey results effectively in order to cover desired topics</li>
+<li>Build a better interface for the course that attendees can reference (think website with tutorials and links all in one package)</li>
+</ul>
+<p>Thanks again to all the teachers and sponsors!</p>
+</div>
+<p>There are <a href=".././djentle-django-followup.html#disqus_thread">comments</a>.</p>
+                </article>
+                
+            </aside><!-- /#featured -->
+            
+                <section id="content" class="body">
+                    <h1>Other articles</h1>
+                    <hr />
+                    <ol id="posts-list" class="hfeed">
+            
+        
+        
+        
+            
+
+        
+         
+            
+            <li><article class="hentry">    
+                <header>
+                    <h1><a href=".././djentle-django-day-2.html" rel="bookmark"
+                           title="Permalink to Djentle Django Day 2">Djentle Django Day 2</a></h1>
+                </header>
+                
+                <div class="entry-content">
+                <footer class="post-info">
         <abbr class="published" title="2012-08-12T00:00:00">
                 Sun 12 August 2012
         </abbr>
@@ -60,41 +249,15 @@
 <p>tags: <a href=".././tag/python.html">python</a><a href=".././tag/django.html">django</a><a href=".././tag/meta.html">meta</a></p>
 
 
-</footer><!-- /.post-info --><p>The first workshop has been completed successfully. Thanks to a great team,
+</footer><!-- /.post-info -->
+                <p>The first workshop has been completed successfully. Thanks to a great team,
 participants were able to build a working Django web site from nothing.
 Some participants were brand new to Linux as well. So there was alot of ground
-covered. Fortunately, Django is straight forward and pretty easy to work with.</p>
-<ul class="simple">
-<li>Huge thanks to the <a class="reference external" href="http://nvcc.edu">Northen Virginia Community College</a> for providing a lab outfitted with computers.</li>
-<li><a class="reference external" href="http://www.willowtreeapps.com/">Willow Tree Apps</a> provided lunch on both days of the workshop, allowing us to interact with eachother and learn that much more.</li>
-</ul>
-<p>And of course, those who taught us all something new</p>
-<ul class="simple">
-<li>Alan Elkner (<a class="reference external" href="http://elkner.net/">elkner.net</a>)</li>
-<li>Annalee Flower Horne (how does one reach you?)</li>
-<li>Eddie Welker (<a class="reference external" href="http://twitter.com/edwelker/">&#64;edwelker</a>)</li>
-<li>Jackie Kazil (<a class="reference external" href="https://twitter.com/JackieKazil">&#64;JackieKazi</a>)</li>
-<li>Jeff Elkner (<a class="reference external" href="http://elkner.net/">elkner.net</a>)</li>
-<li>Jen Rullmann (<a class="reference external" href="https://twitter.com/RedMonocle">&#64;RedMonocle</a>)</li>
-<li>Kevin Cole (<a class="reference external" href="https://twitter.com/ubuntourist">&#64;ubuntourist</a>)</li>
-<li>Matt Makai (<a class="reference external" href="http://twitter.com/makaimc/">&#64;makaimc</a>)</li>
-<li>Ryan Day (<a class="reference external" href="https://twitter.com/RyanDay2">&#64;RyanDay2</a>)</li>
-</ul>
-<p>I have a lot of data and thoughts and ideas, but I have to compile it all first.
-I hope to put up something graphing the spreadsheet data and ideas later this
-week. So check back!</p>
-<p>Until then, quote of the course, &quot;Most of computer programming is just doing math the wrong way&quot;.</p>
-
-                </article>
-                
-            </aside><!-- /#featured -->
-            
-                <section id="content" class="body">
-                    <h1>Other articles</h1>
-                    <hr />
-                    <ol id="posts-list" class="hfeed">
-            
-        
+covered. Fortunately, Django is straight forward and pretty easy to work ...</p>
+                <a class="readmore" href=".././djentle-django-day-2.html">read more</a>
+                <p>There are <a href=".././djentle-django-day-2.html#disqus_thread">comments</a>.</p>
+                </div><!-- /.entry-content -->
+            </article></li>
         
         
             
@@ -127,7 +290,7 @@ week. So check back!</p>
                 <p>Day #1 of Djentle Django is complete. We did seriously well. Our class has a very diverse range of skills. There are some who are installing their favorite IDE and running through the Django tutorial. There are a couple who have not used a command line before.</p>
 <p>Even those with ...</p>
                 <a class="readmore" href=".././djentle-django-day-1.html">read more</a>
-                
+                <p>There are <a href=".././djentle-django-day-1.html#disqus_thread">comments</a>.</p>
                 </div><!-- /.entry-content -->
             </article></li>
         
@@ -169,7 +332,7 @@ for our information as well. We discussed several things, most notably:</p>
 </ol>
 <p>Dgentle Django's huge traction ...</p>
                 <a class="readmore" href=".././workshop-meeting-1.html">read more</a>
-                
+                <p>There are <a href=".././workshop-meeting-1.html#disqus_thread">comments</a>.</p>
                 </div><!-- /.entry-content -->
             </article></li>
         
@@ -206,19 +369,6 @@ for our information as well. We discussed several things, most notably:</p>
                         </ul>
                 </div><!-- /.blogroll -->
         
-        
-                <div class="social">
-                        <h2>social</h2>
-                        <ul>
-                            <li><a href="http://blog.novapython.org/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
-                            
-
-                        
-                            <li><a href="http://twitter.com/NOVAPython">@NOVAPython</a></li>
-                        
-                        </ul>
-                </div><!-- /.social -->
-        
         </section><!-- /#extras -->
 
         <footer id="contentinfo" class="body">
@@ -241,6 +391,17 @@ for our information as well. We discussed several things, most notably:</p>
     } catch(err) {}</script>
 
 
+
+<script type="text/javascript">
+    // Test
+    var disqus_shortname = 'novapythonblog';
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+</script>
 
 </body>
 </html>

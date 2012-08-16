@@ -24,7 +24,21 @@
 <body id="index" class="home">
 
         <header id="banner" class="body">
-                <h1><a href=".">NOVA Python </a></h1>
+            <div style="height:60px">
+                <h1 style="float:left"><a href=".">NOVA Python </a></h1>
+        
+                <div class="social" style="float: right">
+                        <ul>
+                            <li><a href="http://blog.novapython.org/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
+                            
+
+                        
+                            <li><a href="http://twitter.com/NOVAPython">@NOVAPython</a></li>
+                        
+                        </ul>
+                </div><!-- /.social -->
+            </div>
+        
                 <nav><ul>
                 
                 
@@ -94,6 +108,19 @@ throwing together a Github Pages account with a little bit of content.</p>
 
     </div><!-- /.entry-content -->
     
+    <div class="comments">
+      <h2>Comments !</h2>
+      <div id="disqus_thread"></div>
+      <script type="text/javascript">
+        var disqus_identifier = "workshop-meeting-1.html";
+        (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://novapythonblog.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+      </script>
+    </div>
+    
 
   </article>
 </section>
@@ -114,19 +141,6 @@ throwing together a Github Pages account with a little bit of content.</p>
                         
                         </ul>
                 </div><!-- /.blogroll -->
-        
-        
-                <div class="social">
-                        <h2>social</h2>
-                        <ul>
-                            <li><a href="http://blog.novapython.org/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
-                            
-
-                        
-                            <li><a href="http://twitter.com/NOVAPython">@NOVAPython</a></li>
-                        
-                        </ul>
-                </div><!-- /.social -->
         
         </section><!-- /#extras -->
 
@@ -150,6 +164,17 @@ throwing together a Github Pages account with a little bit of content.</p>
     } catch(err) {}</script>
 
 
+
+<script type="text/javascript">
+    // Test
+    var disqus_shortname = 'novapythonblog';
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+</script>
 
 </body>
 </html>

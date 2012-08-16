@@ -24,7 +24,21 @@
 <body id="index" class="home">
 
         <header id="banner" class="body">
-                <h1><a href="../.">NOVA Python </a></h1>
+            <div style="height:60px">
+                <h1 style="float:left"><a href="../.">NOVA Python </a></h1>
+        
+                <div class="social" style="float: right">
+                        <ul>
+                            <li><a href="http://blog.novapython.org/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
+                            
+
+                        
+                            <li><a href="http://twitter.com/NOVAPython">@NOVAPython</a></li>
+                        
+                        </ul>
+                </div><!-- /.social -->
+            </div>
+        
                 <nav><ul>
                 
                 
@@ -64,7 +78,7 @@
 Of course, my code is written in PHP, and my cloud is based on Rackspace...
 so I strayed a little bit from <a class="reference external" href="http://www.redmonocle.com/">Jen Rullmann's</a> presentation, but its the thought that counts. The workshop last night went very well. We had several linux users, the ever growing Mac contingent was there, and we had Windows users as well. Yet, we still managed to get virtualenv and Django running locally on everyone’s system, and then pushed to EC2 using a Fabric config file. That is the same fabfile I modified to get my PHP code up and running on Rackspace. Fabric is pretty great and Jen’s example cut out a lot of tedious steps to learn the ins and outs.</p>
 <p>We had a strong turnout. Deploying applications reliably across systems is a hot topic. It doesn’t matter if its AWS, VMware, Heroku or Rackspace, it seems to be what everyone wants to do. Getting a hands on tutorial was strong step in the right direction. Next we could delve into Fabric more. Explore more of the AWS services, hear from some of the other providers out there as well…. So until that next time..</p>
-
+<p>There are <a href=".././june-nova-python-meetup.html#disqus_thread">comments</a>.</p>
                 </article>
                 
                     
@@ -104,19 +118,6 @@ so I strayed a little bit from <a class="reference external" href="http://www.re
                         </ul>
                 </div><!-- /.blogroll -->
         
-        
-                <div class="social">
-                        <h2>social</h2>
-                        <ul>
-                            <li><a href="http://blog.novapython.org/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
-                            
-
-                        
-                            <li><a href="http://twitter.com/NOVAPython">@NOVAPython</a></li>
-                        
-                        </ul>
-                </div><!-- /.social -->
-        
         </section><!-- /#extras -->
 
         <footer id="contentinfo" class="body">
@@ -139,6 +140,17 @@ so I strayed a little bit from <a class="reference external" href="http://www.re
     } catch(err) {}</script>
 
 
+
+<script type="text/javascript">
+    // Test
+    var disqus_shortname = 'novapythonblog';
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+</script>
 
 </body>
 </html>

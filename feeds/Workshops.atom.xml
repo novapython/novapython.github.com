@@ -1,5 +1,141 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>NOVA Python</title><link href="http://blog.novapython.org/" rel="alternate"></link><link href="http://blog.novapython.org/feeds/Workshops.atom.xml" rel="self"></link><id>http://blog.novapython.org/</id><updated>2012-08-12T00:00:00-04:00</updated><entry><title>Djentle Django Day 2</title><link href="http://blog.novapython.org/djentle-django-day-2.html" rel="alternate"></link><updated>2012-08-12T00:00:00-04:00</updated><author><name>Ryan Day</name></author><id>tag:blog.novapython.org,2012-08-12:djentle-django-day-2.html</id><summary type="html">&lt;p&gt;The first workshop has been completed successfully. Thanks to a great team,
+<feed xmlns="http://www.w3.org/2005/Atom"><title>NOVA Python</title><link href="http://blog.novapython.org/" rel="alternate"></link><link href="http://blog.novapython.org/feeds/Workshops.atom.xml" rel="self"></link><id>http://blog.novapython.org/</id><updated>2012-08-15T00:00:00-04:00</updated><entry><title>Djentle Django Followup</title><link href="http://blog.novapython.org/djentle-django-followup.html" rel="alternate"></link><updated>2012-08-15T00:00:00-04:00</updated><author><name>Ryan Day</name></author><id>tag:blog.novapython.org,2012-08-15:djentle-django-followup.html</id><summary type="html">&lt;p&gt;Novapython's first Djentle Django workshop has been a great success. Thanks
+goes out to &lt;a class="reference external" href="http://nvcc.edu"&gt;NVCC&lt;/a&gt; for providing the space and equipment. Also thanks to
+&lt;a class="reference external" href="http://willowtreeapps.com"&gt;Willow Tree Apps&lt;/a&gt; for providing two days of lunch for everyone. Also, we
+should mention all the teachers and helpers that made this possible:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Alan Elkner (aelkner .at. elkner.net)&lt;/li&gt;
+&lt;li&gt;Annalee Flower Horne&lt;/li&gt;
+&lt;li&gt;Eddie Welker (&lt;a class="reference external" href="http://twitter.com/edwelker/"&gt;&amp;#64;edwelker&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Jackie Kazil (&lt;a class="reference external" href="https://twitter.com/JackieKazil"&gt;&amp;#64;JackieKazi&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Jeff Elkner (&lt;a class="reference external" href="http://elkner.net/"&gt;elkner.net&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Jen Rullmann (&lt;a class="reference external" href="https://twitter.com/RedMonocle"&gt;&amp;#64;RedMonocle&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Kevin Cole (&lt;a class="reference external" href="https://twitter.com/ubuntourist"&gt;&amp;#64;ubuntourist&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Mackenzie Morgan&lt;/li&gt;
+&lt;li&gt;Matt Makai (&lt;a class="reference external" href="http://twitter.com/makaimc/"&gt;&amp;#64;makaimc&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Ryan Day (&lt;a class="reference external" href="https://twitter.com/RyanDay2"&gt;&amp;#64;RyanDay2&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img alt="class" src="images/class.jpg" /&gt; &lt;img alt="helpers" src="images/action.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;Now that we've competed this class, it's a good time to time to look over what
+worked, what didn't, what to add/remove, and just think about stuff in general.
+What better way than to go through the questions I sent out to all the attendees&lt;/p&gt;
+&lt;div class="section" id="preworkshop"&gt;
+&lt;h2&gt;Preworkshop&lt;/h2&gt;
+&lt;p&gt;I asked the following questions of &lt;strong&gt;23&lt;/strong&gt; attendees, and received &lt;strong&gt;12&lt;/strong&gt; responses:&lt;/p&gt;
+&lt;ol class="arabic simple"&gt;
+&lt;li&gt;How did you hear about this workshop? &lt;em&gt;(Pyladies / Novapython / NVCC)&lt;/em&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;3&lt;/strong&gt; Pyladies&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;9&lt;/strong&gt; Novapython&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;1&lt;/strong&gt; NVCC&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Note&lt;/strong&gt; One attendee checked both Pyladies and Novapython&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;What is your current comfort level with HTML/CSS? &lt;em&gt;(Very Comfortable / Comfortable / No Opinion / Not So Comfortable)&lt;/em&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;4&lt;/strong&gt; Very Comfortable&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2&lt;/strong&gt; Comfortable&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2&lt;/strong&gt; No Opinion&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;4&lt;/strong&gt; Not So Comfortable&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;What is your current comfort level with Python? &lt;em&gt;(Very Comfortable / Comfortable / No Opinion / Not So Comfortable)&lt;/em&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;2&lt;/strong&gt; Very Comfortable&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;6&lt;/strong&gt; Comfortable&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;4&lt;/strong&gt; No Opinion&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;0&lt;/strong&gt; Not So Comfortable&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;What is your current comfort level with Django? &lt;em&gt;(Very Comfortable / Comfortable / No Opinion / Not So Comfortable)&lt;/em&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;0&lt;/strong&gt; Very Comfortable&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;0&lt;/strong&gt; Comfortable&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2&lt;/strong&gt; No Opinion&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;10&lt;/strong&gt; Not So Comfortable&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Have you used any other web frameworks / programming languages? &lt;em&gt;(Open Ended)&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Are there any specific topics you would like covered? &lt;em&gt;(Open Ended)&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Was there anything special about this workshop that made you want to sign up? &lt;em&gt;(Open Ended)&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;What are your biggest worries about taking this workshop? &lt;em&gt;(Open Ended)&lt;/em&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="section" id="preworkshop-results"&gt;
+&lt;h2&gt;Preworkshop Results&lt;/h2&gt;
+&lt;p&gt;This is what we were hoping for! Now, if everyone had completed the survey, then
+the results would have been a little different, but not by much. We had some
+true beginners, but nobody had the fear. The opended questions are a little
+harder to quantify, but the &lt;em&gt;majority of attendees were worried about being
+left behind&lt;/em&gt;. After going through the postworkshop results, I feel we did a
+great job in alleviating this worry.&lt;/p&gt;
+&lt;p&gt;Also, an informal survey of the class showed a lot of programming experience in
+other languages and frameworks. Java was prevelant. I had a lot of side
+questions about Flask and Pyramid as well. A good bit of the class had database
+experience (odd, if you ask me. I would have thought more HTML than databases).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="postworkshop"&gt;
+&lt;h2&gt;Postworkshop&lt;/h2&gt;
+&lt;p&gt;We received only &lt;strong&gt;4&lt;/strong&gt; responses for the postworkshop, which tells me we need a
+better way of gathering the results. But anyway, the questions:&lt;/p&gt;
+&lt;ol class="arabic simple"&gt;
+&lt;li&gt;What is your current comfort level with HTML/CSS? &lt;em&gt;(Very Comfortable / Comfortable / No Opinion / Not So Comfortable)&lt;/em&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;2&lt;/strong&gt; Very Comfortable&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2&lt;/strong&gt; Comfortable&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;0&lt;/strong&gt; No Opinion&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;0&lt;/strong&gt; Not So Comfortable&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;What is your current comfort level with Python? &lt;em&gt;(Very Comfortable / Comfortable / No Opinion / Not So Comfortable)&lt;/em&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;1&lt;/strong&gt; Very Comfortable&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2&lt;/strong&gt; Comfortable&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;0&lt;/strong&gt; No Opinion&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;1&lt;/strong&gt; Not So Comfortable&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;What is your current comfort level with Django? &lt;em&gt;(Very Comfortable / Comfortable / No Opinion / Not So Comfortable)&lt;/em&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;0&lt;/strong&gt; Very Comfortable&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;3&lt;/strong&gt; Comfortable&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;1&lt;/strong&gt; No Opinion&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;0&lt;/strong&gt; Not So Comfortable&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;What topics would you have liked to learn more about? &lt;em&gt;(Open Ended)&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;What was the least helpful part of this course? &lt;em&gt;(Open Ended)&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Does anything particularly interesting stand out in your memory? &lt;em&gt;(Open Ended)&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Would you be interested in a followup course? &lt;em&gt;(Boolean)&lt;/em&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;4&lt;/strong&gt; Yes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Had you ever used Linux before this course? &lt;em&gt;(Boolean)&lt;/em&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;4&lt;/strong&gt; Yes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Did you feel rushed and/or overwhelmed during this course? &lt;em&gt;(Boolean)&lt;/em&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;4&lt;/strong&gt; No&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="section" id="postworkshop-results"&gt;
+&lt;h2&gt;Postworkshop Results&lt;/h2&gt;
+&lt;p&gt;Success! The &amp;quot;No So Comfortable&amp;quot; Django responses went to 0, and the
+comfortable responses went up. Nobody reported feeling rushed or overwhelmed in
+the process. I also see that everyone who responded had used linux in the past,
+and I know this wasn't the case when we were helping out attendees. So this
+whole thing probably suffers a little bias.&lt;/p&gt;
+&lt;p&gt;But! Everyone seemed to have a good time, learn a little something, and not
+get intimidated or feel uncomfortable. Those are the results we really cared
+about.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="next-steps"&gt;
+&lt;h2&gt;Next Steps&lt;/h2&gt;
+&lt;p&gt;For the next course, we need to&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Do a better job of surveying the class. More results will help us improve.&lt;/li&gt;
+&lt;li&gt;Find a way to break up instruction/coding into more distinct segments to reduce downtime and crosstalk which may get confusing&lt;/li&gt;
+&lt;li&gt;Use the more complete survey results effectively in order to cover desired topics&lt;/li&gt;
+&lt;li&gt;Build a better interface for the course that attendees can reference (think website with tutorials and links all in one package)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Thanks again to all the teachers and sponsors!&lt;/p&gt;
+&lt;/div&gt;
+</summary><category term="python"></category><category term="django"></category><category term="meta"></category></entry><entry><title>Djentle Django Day 2</title><link href="http://blog.novapython.org/djentle-django-day-2.html" rel="alternate"></link><updated>2012-08-12T00:00:00-04:00</updated><author><name>Ryan Day</name></author><id>tag:blog.novapython.org,2012-08-12:djentle-django-day-2.html</id><summary type="html">&lt;p&gt;The first workshop has been completed successfully. Thanks to a great team,
 participants were able to build a working Django web site from nothing.
 Some participants were brand new to Linux as well. So there was alot of ground
 covered. Fortunately, Django is straight forward and pretty easy to work with.&lt;/p&gt;

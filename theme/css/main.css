@@ -145,8 +145,11 @@ aside, nav, article, figure {
 	display: block;
 }
 
+article {
+    font-size: 16px;
+}
 /***** Layout *****/
-.body {clear: both; margin: 0 auto; width: 800px;}
+.body {clear: both; margin: 0 auto; width: 60%;}
 img.right, figure.right {float: right; margin: 0 0 2em 2em;}
 img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 
@@ -184,14 +187,14 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 		margin: 0 auto 2em auto;
 		padding: 0;
 		text-align: center;
-		width: 800px;
+		width: 100%;
 		
 		border-radius: 5px;
 		-moz-border-radius: 5px;
 		-webkit-border-radius: 5px;
 	}
 	
-	#banner nav ul {list-style: none; margin: 0 auto; width: 800px;}
+	#banner nav ul {list-style: none; margin: 0 auto; width: 100%;}
 	#banner nav li {float: left; display: inline; margin: 0;}
 	
 	#banner nav a:link, #banner nav a:visited {
@@ -226,7 +229,7 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 	margin-bottom: 2em;
 	overflow: hidden;
 	padding: 20px;
-	width: 760px;
+	width: 60%;
 	
 	border-radius: 10px;
 	-moz-border-radius: 10px;
@@ -255,7 +258,7 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 	margin-bottom: 2em;
 	overflow: hidden;
 	padding: 20px 20px;
-	width: 760px;
+	width: 60%;
 	
 	border-radius: 10px;
 	-moz-border-radius: 10px;
@@ -295,6 +298,10 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 	#extras .blogroll li {float: left; margin: 0 20px 0 0; width: 185px;}
 	
 	/* Social */
+    .social li {
+        display: inline;
+         list-style-type: none;
+    }
 	#extras .social {
 		float: right;
 		width: 175px;
@@ -305,14 +312,20 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 		background-position: 3px 6px;
 		padding-left: 25px;
 	}
+
+    div[class='social'] a {
+		background-repeat: no-repeat;
+		background-position: 3px;
+		padding-left: 25px;
+    }
 	
 		/* Icons */
 		.social a[href*='delicious.com'] {background-image: url('../images/icons/delicious.png');}
 		.social a[href*='digg.com'] {background-image: url('../images/icons/digg.png');}
 		.social a[href*='facebook.com'] {background-image: url('../images/icons/facebook.png');}
 		.social a[href*='last.fm'], .social a[href*='lastfm.'] {background-image: url('../images/icons/lastfm.png');}
-		.social a[type$='atom+xml'], .social a[type$='rss+xml'] {background-image: url('../images/icons/rss.png');}
-		.social a[href*='twitter.com'] {background-image: url('../images/icons/twitter.png');}
+		.social a[type$='atom+xml'], .social a[type$='rss+xml'] {background-image: url('../images/icons/rss.png'); background-repeat: no-repeat;}
+		.social a[href*='twitter.com'] {background-image: url('../images/icons/twitter.png');background-repeat: no-repeat;}
 		.social a[href*='linkedin.com'] {background-image: url('../images/icons/linkedin.png');}
 		.social a[href*='gitorious.org'] {background-image: url('../images/icons/gitorious.org');}
 
@@ -326,7 +339,7 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 	overflow: hidden;
 	padding: 20px;
 	text-align: left;
-	width: 760px;
+	width: 60%;
 	
 	border-radius: 10px;
 	-moz-border-radius: 10px;
